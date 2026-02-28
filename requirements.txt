@@ -1,0 +1,21 @@
+# Core
+opencv-python-headless>=4.10.0
+numpy>=1.26.0,<2.0.0
+onnxruntime-gpu>=1.19.0
+
+# Face processing
+insightface>=0.7.3
+scikit-learn>=1.5.0
+
+# Vector database
+faiss-cpu>=1.8.0          # GPU variant: faiss-gpu (needs CUDA toolkit match)
+
+# Utilities
+pyyaml>=6.0
+requests>=2.32.0
+tqdm>=4.66.0
+Pillow>=10.4.0
+
+# Optional: notifications
+# pushbullet.py>=12.0
+# websocket-client>=1.8.0
